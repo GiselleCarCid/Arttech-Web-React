@@ -1,0 +1,52 @@
+form{
+    background-color:#CBC9BD; 
+    width:100%; /* Hace que el formulario ocupe el 100% del ancho disponible */
+    max-width: 500px; /* Establece un ancho máximo para el formulario */
+    min-width: 300px;
+    margin: 3rem auto;
+    padding: 0 2em 2em;
+    font-family:"Gill Sans", sans-serif;
+    font-size: 18px;
+    border-radius: 5px; /* Añade esquinas redondeadas para un aspecto más suave */
+    overflow: hidden; /* Evita que el contenido desborde el formulario */
+    text-align: left;
+}
+
+h2{
+    color: #FFFFFF;
+}
+
+fieldset{
+    border: none;
+    padding: auto;
+    border-bottom: 3px;
+}
+
+label {
+    display: block;
+    margin: auto;
+    width: 100%;
+    color: #FFFFFF;
+}
+
+input,
+textarea,
+select {
+    margin: 10px 0;
+    border: 1px solid #737373; /* Establece el color y el grosor del borde */
+    width: 100%;
+    min-height: 2em;
+    border-radius: 0.4em;
+}
+
+input[type="submit"]{
+    width: 100%;
+    border: 1px solid #242927; /* Establece el color y el grosor del borde */
+    background-color: #242927;
+    min-height: 40px;
+    border-radius: 20px;
+    color: #f5f6f7;
+    font-family:"Gill Sans", sans-serif;
+    font-size: 20px;
+    margin-left: auto;
+}
